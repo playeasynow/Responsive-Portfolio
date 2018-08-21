@@ -393,6 +393,11 @@ i {
     }
 
     #navButtonLinks {
-        margin-left: 20px;
+        margin-right: 100px;
+    }
+
+    #redFlower, #blueFlower, #orangeFlower, #purpleFlower, #pinkFlower {
+        margin-left: 145px;
+        margin-bottom: 20px;
     }
 }
