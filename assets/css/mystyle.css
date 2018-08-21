@@ -328,3 +328,67 @@ i {
     animation: animatedBackground 5s linear infinite;
 }
 
+@media screen and (max-width: 980px) {
+    #mainContentBox {
+        float: left;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #nameNavBox {
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+@media screen and (max-width: 768px) {
+    #mainContentBox {
+        float: left;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: auto;
+    }
+
+    #headerBox {
+        width: auto;
+        height: auto;
+    }
+
+    #nameBox {
+        width: 100%;
+    }
+
+    #navButtonLinks {
+        margin-right: 150px;
+    }
+
+@media screen and (max-width: 640px) {
+    #mainContentBox {
+        float: left;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: auto;
+    }
+
+    #headerBox {
+        width: auto;
+        height: auto;
+    }
+
+    #nameBox {
+        height: auto;
+    }
+
+    #nameNavBox {
+        float: left;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #navButtonLinks {
+        margin-left: 20px;
+    }
