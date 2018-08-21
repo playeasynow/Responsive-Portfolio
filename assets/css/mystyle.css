@@ -331,7 +331,7 @@ i {
 @media screen and (max-width: 980px) {
     #mainContentBox {
         float: left;
-        width: auto;
+        width: 90%;
         margin-right: 10px;
         margin-left: 10px;
     }
@@ -341,12 +341,17 @@ i {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    #fullNameBox, #emailBox, #messageBox, input[type=sumbit] {
+        width: 90%;
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
     #mainContentBox {
         float: left;
-        width: auto;
+        width: 90%;
         margin-right: 10px;
         margin-left: 10px;
         height: auto;
@@ -365,12 +370,17 @@ i {
         margin-right: 150px;
     }
 
+    #fullNameBox, #emailBox, #messageBox, input[type=sumbit] {
+        width: 90%;
+        margin-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
     #mainContentBox {
         float: left;
-        width: auto;
+        width: 90%;
         margin-right: 10px;
         margin-left: 10px;
         height: auto;
@@ -399,5 +409,10 @@ i {
     #redFlower, #blueFlower, #orangeFlower, #purpleFlower, #pinkFlower {
         margin-left: 145px;
         margin-bottom: 20px;
+    }
+    
+    #fullNameBox, #emailBox, #messageBox, input[type=sumbit] {
+        width: 90%;
+        margin-top: 0;
     }
 }
